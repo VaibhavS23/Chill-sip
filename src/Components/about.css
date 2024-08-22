@@ -1,0 +1,66 @@
+#zoom {
+  width: max-content;
+  position: relative;
+}
+
+#zoom img {
+  width: 200px;
+}
+#imgZoom {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  --zoom-x: 50%;
+  --zoom-y: 50%;
+  transform: scale(1.5);
+  pointer-events: none;
+  clip-path: circle(60px at var(--zoom-x) var(--zoom-y));
+  opacity: 0;
+}
+.watch-video-button{
+    padding: 16px;
+    border-radius: 27px;
+    border: 2px solid black;
+    background-color: #fe9e0d;
+    color: white;
+    }
+
+    .watch-video-button {
+        position: relative;
+        
+        color: #FFFFFF;
+        
+        text-align: center;
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        
+        overflow: hidden;
+        cursor: pointer;
+      }
+      
+      .watch-video-button:after {
+        content: "";
+        background: white;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px!important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+      }
+      
+      .watch-video-button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+      }
+
+    .a1{
+        text-decoration: none;
+    }
+    .secondary-button{
+border: 2px solid black;
+
+    }
