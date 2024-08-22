@@ -8,7 +8,7 @@
 }
 #imgZoom {
   position: absolute;
-  left: 50px;
+  left: 17px;
   top: 0;
   --zoom-x: 50%;
   --zoom-y: 50%;

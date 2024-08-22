@@ -1,6 +1,6 @@
 import React ,{ useEffect } from "react";
 import AboutBackground from "../Assets/about-background.png";
-import AboutBackgroundImage from "../Assets/image..png";
+import AboutBackgroundImage from "../Assets/newcoca.png";
 
 import "./about.css";
 import InitZoom from "./zoom.js";
