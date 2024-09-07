@@ -27,6 +27,16 @@ const Home = () => {
         </div>
         <div className="home-image-section">
           <Bottle />
+          <div>
+            <h3>H</h3>
+            <h3>o</h3>
+            <h3>v</h3>
+            <h3>e</h3>
+            <h3>r</h3>
+            <br />
+            <h3>m</h3>
+            <h3>e</h3>
+          </div>
         </div>
       </div>
     </div>

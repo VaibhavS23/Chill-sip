@@ -82,6 +82,7 @@ nav {
 .home-image-section {
   max-width: 169px;
   flex: 1;
+  display: flex;
 }
 .home-text-section {
   flex: 1;
